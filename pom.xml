@@ -26,9 +26,9 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.ntt_data_bootcamp</groupId>
-			<artifactId>starters_prueba</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			 <groupId>com.nttdata.bootcamp</groupId>
+		 	<artifactId>starter</artifactId>
+		 	<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 		    <groupId>io.micrometer</groupId>
@@ -38,6 +38,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		  <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
